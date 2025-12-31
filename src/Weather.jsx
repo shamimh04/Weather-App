@@ -140,7 +140,7 @@ function Weather() {
   return (
     <div className="weather-bg">
       <div className="container ">
-        <h3 className="text-center mt-5 mb-4">🌤️ Weather App</h3>
+        <h3 className="text-center mt-5 mb-3">🌤️ Weather App</h3>
         <div className="col-md-6 mx-auto">
           <div className="input-group mb-4">
             <input
@@ -187,7 +187,7 @@ function Weather() {
                     <p>Wind: {weatherData[c].wind.speed} m/s</p>
                   </>
                 ) : (
-                  <p>Loading...</p>
+                  <p>Loading....</p>
                 )}
               </div>
             </div>
