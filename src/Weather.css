@@ -1,0 +1,41 @@
+/* body {
+  background: linear-gradient(to right, #6dd5fa, #ffffff);
+  min-height: 100vh;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.weather-result h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.weather-result p {
+  font-size: 1.1rem;
+  margin: 0;
+} */
+
+.weather-bg {
+  min-height: 100vh;
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  display: flex;
+}
+
+.weather-card {
+  border-radius: 15px;
+  padding: 25px;
+}
+
+.weather-card h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.weather-icon {
+  width: 55px;
+  height: 55px;
+  margin: 0 auto;
+  display: block;
+}
